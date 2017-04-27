@@ -18,7 +18,7 @@ Call dataStore module in your HTML before your application and use it.
 
 ### .add(selector, key, value)
 
-Calling `.add(selector, key, value)` method allow to attach data of any type to DOM elements in a way that is safe from memory leaks
+Calling `.add(selector, key, value)` method allow to attach data of any type to DOM elements in a way that is safe from memory leaks. If key already exist, the new key/value will replace the data.
 
 ```javascript
 dataStore.add(selector, key, value)
