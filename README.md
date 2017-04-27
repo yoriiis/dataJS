@@ -46,11 +46,11 @@ Calling `.remove(selector, key)` method allows to remove values that were previo
 When called with the name of a key, `.remove()` deletes that particular value.
 
 ```javascript
-dataStore.add(selector, key)
+dataStore.remove(selector, key)
 ```
 
 When called with selector argument only (without key), all values are removed.
 
 ```javascript
-dataStore.add(selector)
+dataStore.remove(selector)
 ```
